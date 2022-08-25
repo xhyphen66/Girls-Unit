@@ -1,0 +1,461 @@
+/* ------------------- Reset ------------------- */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+nav ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------------------- Colors ------------------- */
+
+* {
+    --red: rgb(255, 59, 49);
+    --pink: rgb(244, 175, 178);
+    --blue: rgb(56, 51, 255);
+    --yellow: rgb(255, 198, 72);
+    --purple: rgb(209, 196, 242);
+    --gray: rgb(166, 166, 166);
+}
+
+/* ------------------- Topology ------------------- */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-xl {
+    font-size: 3.5rem;
+}
+
+.font-l {
+    font-size: 2rem;
+}
+
+.font-m {
+    font-size: 1.2rem;
+}
+
+.font-s {
+    font-size: 1rem;
+}
+
+.font-xs {
+    font-size: 0.75rem;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+/* ------------------- Helpers ------------------- */
+
+.flow > *+* {
+    margin-top: 4rem;
+}
+
+.flow-l > *+* {
+    margin-top: 8rem;
+}
+
+.flow-s > *+* {
+    margin-top: 2rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-coloumn {
+    flex-direction: column;
+}
+
+.justify-c {
+    justify-content: center;
+}
+
+.justify-sb {
+    justify-content: space-between;
+}
+
+.align-c {
+    align-items: center;
+}
+
+/* ------------------- Container ------------------- */
+
+.container {
+    border-radius: 45px;
+    background-color: rgba(255, 255, 255, 0.65);
+    margin-block: 1rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 25px 7px rgba(0, 0, 0, 0.3);
+}
+
+.container-l {
+    width: 100%;
+    height: 650px;
+}
+
+.container-m {
+    width: 45%;
+    height: 650px;
+}
+
+.container-s {
+    width: 20%;
+    height: 450px;
+}
+
+.container-2q {
+    width: 60%;
+    height: 650px;
+}
+
+.container-1q {
+    width: 30%;
+    height: 650px;
+}
+
+/* ------------------- Header ------------------- */
+
+.header {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 4rem;
+    border-bottom: 2px solid var(--red);
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-inline: 2rem;
+}
+
+.logo {
+    width: 155px;
+}
+
+.navlink {
+    margin-right: 4rem;
+}
+
+.navlink > li {
+    margin-left: 1.5rem;
+}
+
+.navlink a {
+    color: black;
+}
+
+/* ------------------- Generall ------------------- */
+
+body,
+footer {
+    background-color: var(--pink);
+}
+
+main {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 25px;
+}
+
+/* ------------------- Landing Section ------------------- */
+
+.landing {
+    justify-content: space-evenly;
+}
+
+.landing > div {
+    width: 40%;
+}
+
+.landing-text {
+    justify-content: space-evenly;
+    padding: 3.5rem;
+}
+
+.landing-img > img {
+    width: 550px;
+    height: 500px;
+}
+
+/* ------------------- Second Section ------------------- */
+
+.section-2 {
+    justify-content: space-between;
+}
+
+.section-2 > div {
+    padding: 2.5rem;
+}
+
+.karte-container {
+    justify-content: space-evenly;
+}
+
+.karte-container p {
+    width: 30%;
+}
+
+.karte-container div {
+    justify-content: space-evenly;
+}
+
+/* ------------------- Third Section ------------------- */
+
+.section-3 {
+    justify-content: space-between;
+}
+
+.section-3 > div {
+    padding: 2.5rem;
+}
+
+#team-img {
+    width: 350px;
+    height: 300px;
+}
+
+/* ------------------- Footer ------------------- */
+
+footer {
+    width: 100vw;
+}
+
+.footer-containers, .slider {
+    justify-content: space-evenly;
+}
+
+.slider {
+    margin-top: 4rem;
+    height: 15rem;
+    background-color: rgba(255, 255, 255, 0.65);
+    justify-content: space-evenly;
+}
+
+.social-media > a {
+    margin-right: 1rem;
+}
+
+.footer-containers > div {
+    padding: 2.5rem;
+}
+
+.about-us > a {
+    text-decoration: underline;
+}
+
+.useful-links img, .footer-nav img {
+    width: 15px;
+    height: 15px;
+    margin-right: 1rem;
+}
+
+.useful-links span, .footer-nav span {
+    color: black;
+}
+
+.contact > div {
+    width: 80%;
+    justify-content: space-between;
+}
+
+.slider-bottom {
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+/* ------------------- Button ------------------- */
+
+.button {
+    text-align: center;
+    color: var(--blue);
+    background-color: var(--purple);
+    transition: all 500ms ease-out;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 4px 1px var(--pink);
+    color: var(--red);
+}
+
+.button-w {
+    width: 150px;
+    height: 45px;
+    border-radius: 25px;
+}
+
+.button-r {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* ------------------- Media Queries ------------------- */
+
+@media only screen and (max-width: 1200px){
+    main {
+        width: 100%;
+    }
+
+    .container:not(.container-s) {
+        border-radius: 0;
+    }
+
+    .container-1q, .container-2q, .container-m {
+        width: 100%;
+        height: auto;
+    }
+
+    .container-s {
+        width: 60%;
+        height: auto;
+    }
+
+    .section-2, .section-3 {
+        flex-direction: column;
+    }
+
+    
+    .landing-img > img {
+        width: 350px;
+        height: 300px;
+    }
+
+    .landing-text {
+        padding: 0.5rem;
+    }
+
+    .footer-containers {
+        flex-direction: column;
+    }
+
+    .contact > div {
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .font-xl {
+        font-size: 3rem;
+    }
+    
+    .font-l {
+        font-size: 1.5rem;
+    }
+    
+    .font-m {
+        font-size: 1rem;
+    }
+    
+    .font-s {
+        font-size: 0.8rem;
+    }
+    
+    .font-xs {
+        font-size: 0.5rem;
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .landing-text {
+        padding: 0;
+    }
+
+    .landing > div {
+        width: 80%;
+    }
+
+    .footer .slider {
+        flex-direction: column;
+    }
+
+    .karte-container > div {
+        flex-direction: column;
+    }
+
+    .karte-container img {
+        width: 261px;
+        height: 192px;
+    }
+
+    .karte-container p {
+        width: auto;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    .landing-img > img, #team-img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .container-s {
+        width: 80%;
+    }
+
+}
+
+
+
